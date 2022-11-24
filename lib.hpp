@@ -1,9 +1,11 @@
 #include <iostream>
 
+extern "C"
 #ifndef _MSC_VER  
 __attribute__((weak))
 #endif
-extern "C" void func();
+void func();
+
 extern "C" void default_func();
 
 #ifdef _MSC_VER
