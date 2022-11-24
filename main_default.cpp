@@ -1,5 +1,5 @@
 #include "lib.hpp"
 
-int main(){
-    call_func();
+int main() {
+	call_func();
 }
