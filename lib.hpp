@@ -10,7 +10,7 @@
 
 #ifdef _MSC_VER
 extern "C"
-#elif  
+#else
 __attribute__((weak))
 #endif
 void func();
