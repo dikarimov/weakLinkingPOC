@@ -1,4 +1,6 @@
 #include <iostream>
 
- void func() __attribute__((weak));
-;
+#ifndef _MSC_VER
+__attribute__((weak))
+#endif
+void func();
