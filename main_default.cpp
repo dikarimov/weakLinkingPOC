@@ -2,5 +2,5 @@
 
 
 int main(){
-    func();
+    call_func();
 }

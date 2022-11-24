@@ -5,5 +5,5 @@ void func(){
 }
 
 int main(){
-    func();
+    call_func();
 }
